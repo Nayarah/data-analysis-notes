@@ -28,8 +28,8 @@ Estudos de *queries* aninhadas e Funções de Janela para ranqueamento e cálcul
 
 | Arquivo | Pergunta de Negócio | Técnicas-Chave |
 | :--- | :--- | :--- |
-| **[01_Rank_Vendedor_Trimestral.sql](./SQL/SQLite_Janela/01_Rank_Vendedor_Trimestral.sql)** | Ranqueamento e performance de vendedores. | `DENSE_RANK() OVER()` e `AVG() OVER()` (Benchmark). |
-| **[02_Musica_Mais_Lucrativa.sql](./SQL/SQLite_Janela/02_Musica_Mais_Lucrativa.sql)** | Identificação de itens mais lucrativos por categoria. | `ROW_NUMBER() OVER(PARTITION BY)` para ranqueamento particionado. |
+| **[01_Rank_Vendedor_Trimestral.sql](./SQL/SQLite/01_Rank_Vendedor_Trimestral.sql)** | Ranqueamento e performance de vendedores. | `DENSE_RANK() OVER()` e `AVG() OVER()` (Benchmark). |
+| **[02_Musica_Mais_Lucrativa.sql](./SQL/SQLite/02_Musica_Mais_Lucrativa.sql)** | Identificação de itens mais lucrativos por categoria. | `ROW_NUMBER() OVER(PARTITION BY)` para ranqueamento particionado. |
 
 ---
 
