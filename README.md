@@ -41,7 +41,7 @@ Estudos de *queries* aninhadas e Funções de Janela para ranqueamento e cálcul
 
 | Arquivo | Tópico Principal (Aplicação de Negócio) | Técnicas-Chave |
 | :--- | :--- | :--- |
-|**[ZenithFlow: Módulo Financeiro](https://github.com/Nayarah/case-company_zenith-flow/tree/feat/financeiro-inteligente/01_Financeiro_Inteligente)**|Pipeline de ETL Automatizado: Consolidação de Receitas e Despesas de Múltiplas Filiais.| **Linguagem M** (Ingestão, `Table.Combine`, Modelagem), **Automação VBA** (Distribuição de relatórios) |
+|**[ZenithFlow: Módulo Financeiro](https://github.com/Nayarah/case-company_zenith-flow/tree/main/01_Financeiro_Inteligente)**|Pipeline de ETL Automatizado: Consolidação de Receitas e Despesas de Múltiplas Filiais.| **Linguagem M** (Ingestão, `Table.Combine`, Modelagem), **Automação VBA** (Distribuição de relatórios) |
 |**[Power-Query_Linguegem-M_Folha-de-Dicas](./PowerQuery_Excel/power-query-m-language-cheatsheet.md)**|Referência Rápida: Performance e Funções M Avançadas (além da GUI).|`Table.Buffer` (Performance), `List.Accumulate` (Lógica), `Table.ExpandRecordColumn` (JSONs).|
 |**[Linguagem-DAX-cheatsheet](./PowerBI-DAX/DAX-language-cheatsheet.md)**|Referência Rápida**DAX** para medidas e Time Intelligence no Power BI|Coluna calculada, Medida e Tabela calculada Funções de agregação `SUM()`; filtro e contexto`CALCULATE()`; Inteligencia de tempo `SAMEPERIODLASTYEAR()`; Lógica e condicionais `SWITCH()` e Contexto `RELATED()`
 ---
