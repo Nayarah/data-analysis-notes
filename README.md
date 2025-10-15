@@ -22,7 +22,7 @@ Exemplos práticos de Engenharia de Dados e modelagem usando a sintaxe BigQuery 
 | **[03_Analise_Rotas_Simetricas.sql](./SQL/BigQuery/03_Analise_Rotas_Simetricas.sql)** | Análise de **simetria** em rotas de mobilidade. | Uso de **CTEs** e funções `LEAST/GREATEST` para modelagem de fluxo bidirecional. |
 
 
-#### ⚙️ SQL Analítico (Funções de Janela)
+#### ⚙️ SQLite Analítico (Funções de Janela)
 
 Estudos de *queries* aninhadas e Funções de Janela para ranqueamento e cálculo de métricas de **benchmark**.
 
@@ -39,4 +39,10 @@ Estudos de *queries* aninhadas e Funções de Janela para ranqueamento e cálcul
 
 ### 🛠️ Fórmulas M e DAX
 
-*Em breve: Resumos de **Fórmulas M** para transformação no Power Query e **DAX** para medidas e Time Intelligence no Power BI.*
+| Arquivo | Tópico Principal (Aplicação de Negócio) | Técnicas-Chave |
+| :--- | :--- | :--- |
+|**[ZenithFlow: Módulo Financeiro](https://github.com/Nayarah/case-company_zenith-flow/tree/feat/financeiro-inteligente/01_Financeiro_Inteligente)**|Pipeline de ETL Automatizado: Consolidação de Receitas e Despesas de Múltiplas Filiais.| **Linguagem M** (Ingestão, `Table.Combine`, Modelagem), **Automação VBA** (Distribuição de relatórios) |
+|**[Power-Query_Linguegem-M_Folha-de-Dicas](./PowerQuery_Excel/power-query-m-language-cheatsheet.md)**|Referência Rápida: Performance e Funções M Avançadas (além da GUI).|`Table.Buffer` (Performance), `List.Accumulate` (Lógica), `Table.ExpandRecordColumn` (JSONs).|
+|**[Linguagem-DAX-cheatsheet](./PowerBI-DAX/DAX-language-cheatsheet.md)**|Referência Rápida**DAX** para medidas e Time Intelligence no Power BI|Coluna calculada, Medida e Tabela calculada Funções de agregação `SUM()`; filtro e contexto`CALCULATE()`; Inteligencia de tempo `SAMEPERIODLASTYEAR()`; Lógica e condicionais `SWITCH()` e Contexto `RELATED()`
+---
+
